@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "DS Digital";
+    src: url("font/DS-DIGI.TTF");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #353535;
+}
+
+.container {
+    background-color: white;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #00000056;
+}
+
+.timer-display {
+    position: relative;
+    width: 92%;
+    background-color: white;
+    color: #353535;
+    left: 4%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #41059140;
+    font-family: "DS Digital";
+    font-size: 40px;
+}
+
+.buttons {
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    width: 120px;
+    height: 45px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+
+.buttons button:hover {
+    box-shadow: 0 0 20px #00000040;
+}
+
+.buttons .start-button {
+    background-color: #297e29;
+}
+
+.buttons .start-button:hover {
+    background-color: #297e29ef;
+}
+
+.buttons .pause-button {
+    background-color: #ce3030;
+}
+
+.buttons .pause-button:hover {
+    background-color: #ce3030ef;
+}
+
+.buttons .reset-button {
+    background-color: #dddd2b;
+}
+
+.buttons .reset-button:hover {
+    background-color: #dddd2bef;
+}
