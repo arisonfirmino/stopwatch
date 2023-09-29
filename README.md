@@ -1,5 +1,5 @@
 <div>
-<img width="550" align="left" src="./images/preview.png"/>
+<img width="370" align="left" src="./images/preview.png"/>
 </div>
 
 <div>
@@ -15,7 +15,7 @@
 
 <p align="center">acesse a demo aqui 👇</p>
 <p align="center">
-<a href="https://arisonfirmino.github.io/flappy-superman/">arisonfirmino.github.io/stopwatch</a>
+<a href="https://arisonfirmino.github.io/stopwatch/">arisonfirmino.github.io/stopwatch</a>
 </p>
 
 </div>
